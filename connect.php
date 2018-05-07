@@ -2,11 +2,12 @@
 
 function getDBConnection() {
     
+    // mysql://b56b91f9386172:408becd7@us-cdbr-iron-east-04.cleardb.net/heroku_d6bc2076e946382?reconnect=true
     //C9 db info
-    $host = "localhost";
-    $dbName = "csumb_quiz";
-    $username = "root";
-    $password = "";
+    $host = "us-cdbr-iron-east-04.cleardb.net";
+    $dbName = "heroku_d6bc2076e946382";
+    $username = "b56b91f9386172";
+    $password = "408becd7";
     
     //when connecting from Heroku
     if  (strpos($_SERVER['HTTP_HOST'], 'herokuapp') !== false) {
