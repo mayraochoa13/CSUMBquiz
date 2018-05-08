@@ -30,4 +30,4 @@
     </form>
     
     <!--Will display the quiz score-->
-    <div id="score"></div>
+    <div id="scores"></div>
